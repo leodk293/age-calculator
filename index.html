@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="inputs">
+
+      <div class="data">
+        <p class="info">DAY</p>
+        <input class="day" type="number" placeholder="DD">
+        <span class="msg">Must be a valid date</span>
+      </div>
+
+      <div class="data">
+        <p class="info">MONTH</p>
+        <input class="month" type="number" placeholder="MM">
+      </div>
+
+      <div class="data">
+        <p class="info">YEARS</p>
+        <input class="year" type="number" placeholder="YYYY">
+      </div>
+
+    </div>
+
+    <div class="arrow">
+      <div class="line"></div>
+      <img src="assets/images/icon-arrow.svg" alt="" title="calculate age">
+    </div>
+
+    <div class="answers">
+      <p class="years"><span class="py">-- </span> <span class="same">  years</span></p>
+      <p class="monts"><span class="pm">-- </span><span class="same">  months</span></p>
+      <p class="days"><span class="pd">-- </span><span class="same">  days</span></p>
+    </div>
+  </div>
+
+</body>
+</html>
